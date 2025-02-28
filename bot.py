@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from transformers import pipeline
 
 # Telegram Bot Token
-BOT_TOKEN = "7985776943:AAED4vPWy2qd6VJdqjMOfpn6IGiCRHrMpIY"
+BOT_TOKEN = "MYTOKEN"
 
 # Force CPU to avoid MPS errors on macOS
 device = "cpu"
